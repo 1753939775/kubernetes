@@ -190,6 +190,7 @@ spec:
         args:
         - --ip-masq
         - --kube-subnet-mgr
+        - --iface=ens34
         resources:
           requests:
             cpu: "100m"
@@ -379,6 +380,7 @@ spec:
         args:
         - --ip-masq
         - --kube-subnet-mgr
+        - --iface=ens34
         resources:
           requests:
             cpu: "100m"
@@ -473,6 +475,7 @@ spec:
         args:
         - --ip-masq
         - --kube-subnet-mgr
+        - --iface=ens34
         resources:
           requests:
             cpu: "100m"
@@ -567,6 +570,7 @@ spec:
         args:
         - --ip-masq
         - --kube-subnet-mgr
+        - --iface=ens34
         resources:
           requests:
             cpu: "100m"
