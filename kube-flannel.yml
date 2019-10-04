@@ -284,7 +284,7 @@ spec:
         args:
         - --ip-masq
         - --kube-subnet-mgr
-		- --iface=ens34
+        - --iface=ens34
         resources:
           requests:
             cpu: "100m"
